@@ -12,11 +12,9 @@ import kodlamaio.northwind.entities.concretes.Product;
 
 @RestController
 @RequestMapping("/api/products")
-public class ProductsController {
+public class ProductsController {	
 	
-	
-	private ProductService productService;
-	
+	private ProductService productService;	
 	
 	@Autowired
 	public ProductsController(ProductService productService) {
